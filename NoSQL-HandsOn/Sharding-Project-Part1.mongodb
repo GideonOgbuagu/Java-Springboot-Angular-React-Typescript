@@ -1,0 +1,30 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use('myFirstDatabase');
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+db.employees.drop();
+// yyyy-mm-dd 
+db.employees.insertMany
+(
+  [
+    { name: "Alison Davidson", birthday: new Date("1975-04-05"), address: "874 W. Oak Place", city: "Gary", state: "Indiana", position: { position_name: "Customer Support", remote: true, full_time: true} },
+    { name: "Henry Chapelton", birthday: new Date("1980-09-29"), address: "9324 E. Vista Way", city: "Tempe", state: "Arizona", position: { position_name: "Customer Support", remote: false, full_time: true} },
+    { name: "Alex Miller", birthday: new Date("1983-11-22"), address: "244 Price Road", city: "Mesa", state: "Arizona", position: { position_name: "Customer Support", remote: false, full_time:  false} },
+    { name: "Carly Neilson", birthday: new Date("1987-08-04"), address: "678 W. Westward Road", city: "Phoenix", state: "Arizona", position: { position_name: "Office Manager", remote: false, full_time: true} },
+    { name: "Tom Talbot", birthday: new Date("1989-12-30"), address: "12 Oakland Way", city: "Chandler", state: "Arizona", position: { position_name: "Inventory Manager", remote: false, full_time: true} },
+    { name: "Mary Crawley", birthday: new Date("1980-07-06"), address: "1010 Granite Way", city: "Charlotte", state: "North Carolina", position: { position_name: "Human Resources", remote: true, full_time: true} },
+    { name: "Daisy Baxter", birthday: new Date("1987-09-09"), address: "990 E. 84th St.", city: "Tempe", state: "Arizona", position: { position_name: "CEO", remote: false, full_time: true} },
+    { name: "William Coyle", birthday: new Date("1991-11-10"), address: "944 W. 16th St.", city: "Phoenix", state: "Arizona", position: { position_name: "Intern", remote: false, full_time: false} },
+    { name: "Edith Bates", birthday: new Date("1990-07-28"), address: "7 E. 20th Pl.", city: "Chandler", state: "Arizona", position: { position_name: "Customer Support", remote: false, full_time: true} },
+    { name: "Gwen Harding", birthday: new Date("1986-10-11"), address: "234 W. 48th. St.", city: "Phoenix", state: "Arizona", position: { position_name: "Office Assistant", remote: false, full_time: true} }
+
+  ]
+);
+
+

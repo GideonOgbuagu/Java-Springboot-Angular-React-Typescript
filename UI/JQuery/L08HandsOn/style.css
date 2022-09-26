@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(152, 3, 3);
+    color: white;
+}
+
+.input {
+    color: red;
+}
+
+.para1 {
+    display: inline;
+}

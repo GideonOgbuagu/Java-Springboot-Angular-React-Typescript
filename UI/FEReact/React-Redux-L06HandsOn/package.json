@@ -1,0 +1,12 @@
+{
+  "name": "react-redux-l06handson",
+  "version": "1.0.0",
+  "description": "Array Filtering and Desctructing",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gideon Ogbuagu",
+  "license": "ISC"
+}
